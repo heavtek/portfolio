@@ -1,0 +1,150 @@
+.about-contianer{
+    height: 80vh;
+    width: 96%;
+    position: relative;
+    top:100px;
+    border-radius: 10px;
+    box-shadow: .2px .2px 2px white;
+    left: 22px;
+    overflow:hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.about-me{
+    width: 45%;
+    color: white;
+}
+h2{
+    color: rgb(173, 170, 170);
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: flex;
+   font-weight: bold;
+    align-items: center;
+    margin-top: 30px;
+}
+.list::before{
+    content: ">";
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px;
+    color: rgb(196, 203, 196);
+}
+
+b{
+    margin-left: 10px;
+}
+.about-skills{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.h-skill{
+    display: flex;
+    width: 95%;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.html-skill{
+    height: 12px;
+    width: 95%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+
+    background-color:  rgb(143, 143, 135);;
+}
+.html-skills{
+    height: 15px;
+    left: 3%;
+    width: 95%;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(112, 112, 107);
+}
+.c-skill{
+    display: flex;
+    width: 95%;
+    color: white;
+    margin-top: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.css-skill{
+    height: 12px;
+    width: 95%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    background-color:  rgb(143, 143, 135);
+}
+.css-skills{
+    height: 15px;
+    left: 3%;
+    width: 86%;
+    top:-1px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(112, 112, 107);
+}
+
+.j-skill{
+    display: flex;
+    width: 95%;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.js-skill{
+    height: 12px;
+    width: 95%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    background-color:  rgb(143, 143, 135);;
+}
+.js-skills{
+    height: 15px;
+    left: 3%;
+    width: 71%;
+    top:-1px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(112, 112, 107);
+}
+
+.r-skill{
+    display: flex;
+    width: 95%;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.react-skill{
+    height: 12px;
+    width: 95%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    background-color: rgb(143, 143, 135);
+}
+.react-skills{
+    height: 15px;
+    left: 3%;
+    width: 86%;
+    top:-1px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(112, 112, 107);
+}
